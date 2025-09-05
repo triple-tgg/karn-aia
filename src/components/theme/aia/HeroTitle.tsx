@@ -17,11 +17,11 @@ const HeroTitle: React.FC<HeroTitleProps> = ({
     <div className="space-y-4">
       <h1 className="text-6xl md:text-7xl font-bold leading-tight">
         {mainTitle}<br />
-        <span className="text-primary-red">{mainTitleHighlight}</span>
+        <span className="text-[#C8AE70]">{mainTitleHighlight}</span>
       </h1>
-      <h2 className="text-4xl text-primary-red md:text-5xl font-bold">
-        {subtitle}<br />
-        <span className="text-primary-red">{subtitleHighlight}</span>
+      <h2 className="text-4xl text-[#008080] md:text-5xl font-bold space-x-6">
+        <span className="text-[#36454f]">{subtitle}</span>
+        <span className="text-[#36454f]">{subtitleHighlight}</span>
       </h2>
     </div>
   );

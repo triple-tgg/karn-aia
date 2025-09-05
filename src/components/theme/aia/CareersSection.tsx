@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import React from 'react';
 
 interface Position {
@@ -43,7 +44,7 @@ const CareersSection: React.FC<CareersSectionProps> = ({
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-secondary-black mb-4">{title}</h2>
-          <div className="flex justify-center flex-wrap gap-8 text-2xl font-bold text-primary-red">
+          <div className="flex justify-center flex-wrap gap-8 text-2xl font-bold text-[#008080]">
             {keywords.map((keyword, index) => (
               <span key={index}>{keyword}</span>
             ))}
@@ -74,14 +75,14 @@ const CareersSection: React.FC<CareersSectionProps> = ({
               // Map color names to actual CSS classes
               const colorClass = {
                 'primary-red': 'bg-primary-red',
-                'secondary-black': 'bg-secondary-black', 
+                'secondary-black': 'bg-secondary-black',
                 'secondary-purple': 'bg-secondary-purple',
                 'accent-yellow': 'bg-accent-yellow'
               }[position.color] || 'bg-red-600';
-              
+
               return (
                 <div key={index} className="bg-white p-8 rounded-2xl shadow-lg card-hover">
-                  <div className={`${colorClass} text-white px-4 py-2 rounded-lg inline-block mb-4`}>
+                  <div className={clsx(`text-white px-4 py-2 rounded-lg inline-block mb-4`, `bg-[${position.color}]`)}>
                     <h4 className="text-xl font-bold">{position.title}</h4>
                   </div>
 
@@ -102,11 +103,11 @@ const CareersSection: React.FC<CareersSectionProps> = ({
           {/* Call to Action */}
           {callToAction && (
             <div className="text-center mt-16">
-              <div className="bg-secondary-black p-12 rounded-3xl">
-                <h3 className="text-4xl font-bold mb-4 text-white">{callToAction.title}</h3>
-                <p className="text-xl mb-2 text-white/90">{callToAction.subtitle}</p>
+              <div className="bg-[#36454F] p-12 rounded-3xl">
+                <h3 className="text-4xl font-bold mb-4 text-[#C8AE70]">{callToAction.title}</h3>
+                <p className="text-xl mb-2 text-[#008080]">{callToAction.subtitle}</p>
                 <p className="text-lg mb-8 text-white/80">{callToAction.description}</p>
-                <button className="bg-primary-red hover:bg-red-600 text-white px-12 py-4 rounded-lg font-semibold text-xl transition-all transform hover:scale-105 shadow-lg">
+                <button className="bg-[#C8AE70] hover:bg-[#C8AE70]/80 text-white px-12 py-4 rounded-lg font-semibold text-xl transition-all transform hover:scale-105 shadow-lg">
                   {callToAction.buttonText}
                 </button>
                 <p className="text-sm mt-6 text-white/70">

@@ -10,7 +10,7 @@ const HeroDescription: React.FC<HeroDescriptionProps> = ({
   className = ""
 }) => {
   return (
-    <p className={`text-xl bg-white/80 backdrop-blur-sm py-1 inline-block pr-4 rounded-full text-black mb-8 ${className}`}>
+    <p className={`text-xl bg-white/80 backdrop-blur-sm py-1 inline-block pr-4 rounded-full text-[#008080] mb-8 ${className}`}>
       {description}
     </p>
   );

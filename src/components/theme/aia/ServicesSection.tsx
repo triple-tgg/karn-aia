@@ -47,16 +47,16 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
   className = ""
 }) => {
   return (
-    <section id="services" className={`py-20 bg-secondary-black ${className}`}>
+    <section id="services" className={`py-30 lg:pb-50 bg-[#C8AE70] ${className}`}>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-white mb-4">{title}</h2>
-          <p className="text-xl text-gray-300">{subtitle}</p>
+          <p className="text-xl text-[#36454f]">{subtitle}</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {serviceList.map((service, index) => (
-            <div key={index} className="bg-white p-6 rounded-2xl text-black card-hover">
-              <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+            <div key={index} className="bg-white p-6 rounded-2xl text-black card-hover border-[#36454f] borders shadow-xl">
+              <div className="w-12 h-12 bg-[#008080] rounded-lg flex items-center justify-center mb-4 text-white">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   {iconComponents[service.icon as keyof typeof iconComponents]}
                 </svg>

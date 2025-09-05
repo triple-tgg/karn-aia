@@ -52,17 +52,17 @@ const Footer: React.FC<FooterProps> = ({
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <h3 className="text-3xl font-bold mb-4 text-primary-red">{brand}</h3>
+            <h3 className="text-3xl font-bold mb-4 text-[#C8AE70]">{brand}</h3>
             <p className="text-gray-300 leading-relaxed mb-6">
               {description}<br />
               {tagline}
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
-                <a 
+                <a
                   key={index}
-                  href={social.url} 
-                  className="bg-secondary-black hover:bg-secondary-black p-3 rounded-lg transition-colors"
+                  href={social.url}
+                  className="bg-[#C8AE70] hover:bg-secondary-black p-3 rounded-lg transition-colors"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     {socialIcons[social.platform as keyof typeof socialIcons]}
@@ -78,7 +78,7 @@ const Footer: React.FC<FooterProps> = ({
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
-                  <a 
+                  <a
                     href={link.href}
                     className="text-gray-300 hover:text-primary-red transition-colors"
                   >
@@ -95,7 +95,7 @@ const Footer: React.FC<FooterProps> = ({
             <ul className="space-y-2">
               {serviceLinks.map((link, index) => (
                 <li key={index}>
-                  <a 
+                  <a
                     href={link.href}
                     className="text-gray-300 hover:text-primary-red transition-colors"
                   >

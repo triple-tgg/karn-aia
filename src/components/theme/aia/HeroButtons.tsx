@@ -18,7 +18,7 @@ const HeroButtons: React.FC<HeroButtonsProps> = ({
   return (
     <div className={`flex flex-col sm:flex-row gap-4 ${className}`}>
       <button
-        className="cursor-pointer bg-primary-red text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 shadow-lg shadow-primary-red/30"
+        className="cursor-pointer bg-[#008080] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 shadow-lg shadow-primary-red/30"
         onClick={onPrimaryClick}
       >
         {primaryButtonText}
