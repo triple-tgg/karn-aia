@@ -1,0 +1,182 @@
+{
+  "navigation": {
+    "brand": "MERKURIUS",
+    "links": [
+      { "href": "#about", "text": "เกี่ยวกับเรา" },
+      { "href": "#services", "text": "บริการ" },
+      { "href": "#careers", "text": "ร่วมงานกับเรา" }
+    ]
+  },
+  "hero": {
+    "mainTitle": "SMART",
+    "mainTitleHighlight": "PLANNING",
+    "subtitle": "SECURE",
+    "subtitleHighlight": "FUTURE",
+    "description": "Financial Planning | Insurance | Legacy Solutions",
+    "primaryButtonText": "Booking Consultation",
+    "secondaryButtonText": "Join Our Team"
+  },
+  "about": {
+    "title": "Our Vision",
+    "quote": "ผมต้องการให้คนไทยมีความแข็งแรงทางการเงิน",
+    "imgSrc": "/assets/image/profile-pic.png",
+    "paragraphs": [
+      "Merkurius ก่อตั้งเมื่อ กุมภาพันธ์ 2024 แต่ตัวผม อยู่ในวงการการเงิน การลงทุน มากว่า 10 ปีแล้ว เราได้เห็นการเปลี่ยนแปลงหลายๆ อย่างในโลกการเงินมากมาย",
+      "แต่สิ่งสำคัญก็คือ การบริหารเงินของคนไทย คนรอบๆ ตัวเรา ยังขาดความรู้ ความเข้าใจอีกมาก ซึ่ง ผมมีความตั้งใจ มี Passion มาตั้งแต่เริ่มงานนี้ว่า จะต้องทำให้เขารู้จักการวางแผนการเงิน เพื่อชีวิตของเขาเอง ให้มีความสุขทุกช่วงของชีวิตให้ได้"
+    ],
+    "highlightQuote": "การดูแลลูกค้าอย่างยั่งยืน คือสิ่งที่สำคัญกับลูกค้ามากที่สุด",
+    "author": "กานต์ มุกดาสนิท, CFP®"
+  },
+  "coreValues": {
+    "title": "วัฒนธรรมองค์กรของเรา",
+    "subtitle": "Core Values",
+    "values": [
+      {
+        "icon": "shield",
+        "title": "ความซื่อสัตย์",
+        "description": "มีความซื่อสัตย์จริงใจต่อกัน ทั้งตัวเอง ทีมงาน และลูกค้า",
+        "color": "primary-red"
+      },
+      {
+        "icon": "building",
+        "title": "ความรับผิดชอบ",
+        "description": "รับผิดชอบในงานที่ทำ และงานที่ได้รับมอบหมาย",
+        "color": "secondary-black"
+      },
+      {
+        "icon": "book",
+        "title": "ไม่หยุดเรียนรู้",
+        "description": "ไม่หยุดพัฒนาตัวเอง ก้าวทันโลกอยู่เสมอ เพื่อนำมาต่อยอดให้กับลูกค้า",
+        "color": "secondary-purple"
+      }
+    ]
+  },
+  "services": {
+    "title": "บริการของที่ปรึกษาการเงิน",
+    "subtitle": "Financial Advisory Services",
+    "serviceList": [
+      {
+        "icon": "calculator",
+        "title": "วางแผนรายรับรายจ่าย",
+        "description": "การเก็บเงินเบื้องต้น วิเคราะห์การใช้จ่าย (Cashflow Analysis)"
+      },
+      {
+        "icon": "shield",
+        "title": "วางแผนความเสี่ยง",
+        "description": "Risk Management/Insurance Planning"
+      },
+      {
+        "icon": "trending-up",
+        "title": "วางแผนการลงทุน",
+        "description": "Investment Planning"
+      },
+      {
+        "icon": "user",
+        "title": "วางแผนเกษียณอย่างมั่นใจ",
+        "description": "Retirement Planning"
+      },
+      {
+        "icon": "book-open",
+        "title": "วางแผนเก็บเงินสำหรับบุตร",
+        "description": "Education Planning"
+      },
+      {
+        "icon": "gift",
+        "title": "วางแผนส่งต่อมรดก",
+        "description": "Legacy Planning"
+      }
+    ]
+  },
+  "careers": {
+    "title": "MERKURIUS | CAREERS",
+    "keywords": ["INCOME", "INDEPENDENT", "IMPACT", "IMPROVE"],
+    "whyAia": {
+      "title": "Why AIA",
+      "description": [
+        "AIA จะมีโครงการปั้นตัวแทนชีวิตที่ยอดเยี่ยม คือ FA และการเริ่มต้นสู่การเป็นที่ปรึกษาการเงินชั้นต้น",
+        "รวมถึงการเรียนรู้แบบประกันต่างๆ ซึ่งเป็นขั้นพื้นฐานของการวางแผนการเงิน ต่อยอดสู่การเป็น ที่ปรึกษาการเงิน CFP® หรือ ที่ปรึกษาการลงทุนได้ในอนาคต"
+      ]
+    },
+    "positions": [
+      {
+        "title": "FA Standard",
+        "color": "primary-red",
+        "description": "ถ้าคุณต้องการเป็นที่ปรึกษาการเงินแบบเรียนลัด การเป็น FA Standard จะตอบโจทย์คุณและย่นระยะการศึกษาเรื่องแบบประกันต่างๆของ AIA ได้อย่างรวดเร็ว",
+        "qualifications": [
+          "อายุ ไม่เกิน 50 ปี",
+          "จบปริญญาตรีขึ้นไป",
+          "ถ้ามี IC License จะรับพิจารณาเป็นพิเศษ",
+          "มีเป้าหมาย วินัยสม่ำเสมอ"
+        ]
+      },
+      {
+        "title": "FA Prime",
+        "color": "secondary-black",
+        "description": "ถ้าคุณต้องการทำอาชีพนี้ให้เติบโตและยั่งยืนมากที่สุด อยากท้าทายความสามารถตัวเอง FA Prime จะตอบโจทย์คุณมากที่สุด การทำงานจะเข้มข้น ติวเข้มข้น",
+        "qualifications": [
+          "อายุ ไม่เกิน 50 ปี",
+          "จบปริญญาตรีขึ้นไป",
+          "มี IC License",
+          "มีประสบการณ์ด้านการเงินมาไม่น้อยกว่า 2 ปี"
+        ]
+      },
+      {
+        "title": "FA-X",
+        "color": "secondary-purple",
+        "description": "ถ้าต้องการเป็นผู้บริหารหน่วย และเคยทำงานฝ่ายบริหารระดับสูงมาก่อน การจบโครงการอย่างรวดเร็วและขึ้นเป็นผู้บริหารของ AIA อย่างรวดเร็วจะตอบโจทย์คุณมากที่สุด",
+        "qualifications": [
+          "อายุ ไม่เกิน 50 ปี",
+          "มี IC License",
+          "มีประสบการณ์ด้านการเงินมาไม่น้อยกว่า 8 ปี",
+          "เคยเป็นหัวหน้าทีม หรือบริหารทีมงาน"
+        ]
+      },
+      {
+        "title": "Standard Agent",
+        "color": "accent-yellow",
+        "description": "การเป็นตัวแทนประกันชีวิต ไม่ได้ต้องการแค่เน้นยอดอย่างเดียว แต่เราต้องเน้นให้แผนประกันตอบโจทย์ลูกค้ามากที่สุด เราจะไม่ใช่เซลส์ขายประกัน แต่เราคือที่ปรึกษาด้านประกัน",
+        "qualifications": [
+          "จบปริญญาตรีขึ้นไป",
+          "ถ้ามี IC License จะรับพิจารณาเป็นพิเศษ",
+          "อยากทำให้คนไทยมีความรู้เรื่องการเงินมากขึ้น",
+          "มีเป้าหมาย วินัยสม่ำเสมอ"
+        ]
+      }
+    ],
+    "callToAction": {
+      "title": "Join our team",
+      "subtitle": "where LOGIC meets CREATIVITY",
+      "description": "สร้างอนาคตทางการเงินที่มั่นคง ร่วมกับเรา",
+      "buttonText": "สมัครงาน",
+      "contactInfo": "หรือหากมีข้อสงสัย สามารถติดต่อสอบถามความเพิ่มเติมได้ที่",
+      "email": "contact@merkurius.com"
+    }
+  },
+  "footer": {
+    "brand": "MERKURIUS",
+    "description": "เราเชื่อว่าการดูแลลูกค้าอย่างยั่งยืน คือสิ่งที่สำคัญกับลูกค้ามากที่สุด",
+    "tagline": "Financial Planning | Insurance | Legacy Solutions",
+    "socialLinks": [
+      { "platform": "twitter", "url": "#" },
+      { "platform": "facebook", "url": "#" },
+      { "platform": "linkedin", "url": "#" }
+    ],
+    "quickLinks": [
+      { "text": "เกี่ยวกับเรา", "href": "#about" },
+      { "text": "บริการ", "href": "#services" },
+      { "text": "ร่วมงานกับเรา", "href": "#careers" },
+      { "text": "ติดต่อเรา", "href": "#" }
+    ],
+    "serviceLinks": [
+      { "text": "วางแผนการเงิน", "href": "#" },
+      { "text": "วางแผนความเสี่ยง", "href": "#" },
+      { "text": "วางแผนการลงทุน", "href": "#" },
+      { "text": "วางแผนเกษียณ", "href": "#" },
+      { "text": "วางแผนส่งต่อมรดก", "href": "#" }
+    ],
+    "legalLinks": [
+      { "text": "Privacy Policy", "href": "#" },
+      { "text": "Terms of Service", "href": "#" }
+    ]
+  }
+}
