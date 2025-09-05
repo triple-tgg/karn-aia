@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-red: #36454F;
+    --color-secondary-black: #B8860B;
+    --color-black: #000;
+    --color-teal: #008080;
+}
+
+@utility bg-hero-pattern {
+    background-image: url("/assets/image/cover.png"), url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, center;
+    background-size: 75%, 20px;
+}
+
+@utility animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@utility animate-float-delay {
+    animation: float 6s ease-in-out infinite 2s;
+}
+
+@utility card-hover {
+    transition: all 0.3s ease;
+}
+
+@utility card-hover {
+    &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
